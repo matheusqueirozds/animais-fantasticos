@@ -1,0 +1,237 @@
+/* ESTILOS GLOBAIS */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.botao {
+    cursor: pointer;
+}
+
+/* BODY */
+body {
+    display: grid;
+    grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
+    background-color: #faf6ed;
+    color: #222222;
+}
+
+/* HEADER */
+.header {
+    grid-column: 3 / -1;
+    margin: 2rem 0;
+    background-color: #ffbb55;
+}
+
+.header-lista {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.header-lista a {
+    display: block;
+    padding: 10px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.875rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+/* GRID-SECTION */
+.grid-section {
+    grid-column: 2 / 4;
+    display: grid;
+    grid-template-columns: 90px 300px 1fr;
+    gap: 20px;
+    margin-bottom: 4rem;
+    padding: 10px;
+    width: 100%;
+}
+
+/* ANIMAIS */
+.titulo {
+    font-family: "Playfair Display SC", serif;
+    font-size: 6rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 1rem;
+    grid-column: 1 / 4;
+}
+
+.animais h2::before {
+    display: inline-block;
+    content: "";
+    height: 10px;
+    width: 40px;
+    margin-right: 10px;
+    background-color: #fb5;
+}
+
+.animais h2 {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+    color: #e54;
+}
+
+.animais p {
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.animais-lista {
+    height: 370px;
+    overflow-y: scroll;
+    grid-column: 2;
+}
+
+.animais-lista::-webkit-scrollbar {
+    width: 18px;
+}
+
+.animais-lista::-webkit-scrollbar-thumb {
+    background-color: #fb5;
+    border-left: 4px solid #faf6ed;
+    border-right: 4px solid #faf6ed;
+}
+
+.animais-lista::-webkit-scrollbar-track {
+    background-color: #faf6ed;
+}
+
+.animais-descricao {
+    grid-column: 3;
+}
+
+.animais-descricao section {
+    margin-bottom: 3rem;
+}
+
+/* FAQ */
+.faq-lista {
+    grid-column: 2/4;
+}
+
+.faq-lista dt {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    color: #e54;
+}
+
+.faq-lista dt::before {
+    display: inline-block;
+    content: "";
+    height: 10px;
+    width: 20px;
+    margin-right: 10px;
+    background-color: #fb5;
+}
+
+.faq-lista dd {
+    font-family: Helvetica, Arial, sans-serif;
+    margin-bottom: 0.5rem;
+    margin-left: 30px;
+}
+
+/* CONTATO */
+.contato-mapa {
+    grid-column: 2;
+}
+
+.contato-dados {
+    grid-column: 3;
+}
+
+.contato-dados li::before {
+    display: inline-block;
+    content: "";
+    height: 10px;
+    width: 20px;
+    margin-right: 10px;
+    background-color: #fb5;
+}
+
+.contato-dados li {
+    margin-bottom: 1rem;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* FOOTER */
+.footer-copy {
+    grid-column: 3/5;
+    margin-bottom: 2rem;
+    background-color: #fb5;
+}
+
+.footer-copy p {
+    padding: 20px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: bold;
+}
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 700px) {
+    body {
+        grid-template-columns: 1fr;
+    }
+
+    .header-menu,
+    .grid-section,
+    .footer-copy {
+        grid-column: 1;
+    }
+
+    .grid-section {
+        grid-template-columns: 100px 1fr;
+        gap: 10px;
+    }
+
+    .animais-lista {
+        grid-column: 1;
+    }
+
+    .faq-lista,
+    .contato-dados,
+    .contato-mapa {
+        grid-column: 1/3;
+    }
+
+    .grid-section h1 {
+        font-size: 3rem;
+    }
+
+    .header-menu {
+        margin-top: 0;
+    }
+
+    .footer-copy {
+        margin-bottom: 0;
+    }
+}
