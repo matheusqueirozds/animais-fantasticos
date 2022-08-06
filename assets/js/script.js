@@ -2,7 +2,6 @@ const activeClass = "ativo";
 
 function initTabNav() {
     const tabMenu = document.querySelectorAll(".js-tabmenu li");
-
     const tabContent = document.querySelectorAll(".js-tabcontent section");
 
     if (tabMenu.length && tabContent.length) {
@@ -30,12 +29,10 @@ function initAccordion() {
 
     if (accordionList.length) {
         accordionList[0].classList.add(activeClass);
-
         accordionList[0].nextElementSibling.classList.add(activeClass);
 
         function activeAccordion(e) {
             this.classList.toggle(activeClass);
-
             this.nextElementSibling.classList.toggle(activeClass);
         }
 
@@ -51,9 +48,7 @@ function initScrollSuave() {
 
     function scrollToSection(e) {
         e.preventDefault();
-
         const href = e.currentTarget.getAttribute("href");
-
         const section = document.querySelector(href);
 
         section.scrollIntoView({
@@ -75,3 +70,25 @@ function initScrollSuave() {
     });
 }
 initScrollSuave();
+
+function initAnimacaoScroll() {
+    const sections = document.querySelectorAll(".js-scroll");
+
+    if (sections.length) {
+        const windowMetade = innerHeight * 0.6;
+
+        function animaScroll() {
+            sections.forEach((section) => {
+                const sectionTop = section.getBoundingClientRect().top;
+                const isSectionVisible = sectionTop - windowMetade < 0;
+
+                if (isSectionVisible) section.classList.add(activeClass);
+                else section.classList.remove(activeClass);
+            });
+        }
+        animaScroll();
+
+        addEventListener("scroll", animaScroll);
+    }
+}
+initAnimacaoScroll();
