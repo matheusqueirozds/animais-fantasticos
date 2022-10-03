@@ -2,7 +2,7 @@
   
 # Animais fantásticos
   
-🦁 Página fictícia sobre animais.
+> 🦁 Página fictícia sobre animais.
   
   <img src="https://user-images.githubusercontent.com/70871620/193637502-7796eb9f-c1d7-41c6-83ef-793d15bfeb76.gif" height="150px" title="Coelho do Github mastigando um bug"/>
 
