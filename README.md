@@ -125,9 +125,9 @@ Inicie o servidor pelo Go Live, disponível após a intalação da extensão Liv
 
 Home
 
----
+--- 
 
-<img src="https://user-images.githubusercontent.com/70871620/194167437-e3abd256-41cb-485a-8f68-fb702f74b016.png" max-width="1220px" title="Galeria de fotos"/>
+<img src="https://user-images.githubusercontent.com/70871620/194167437-e3abd256-41cb-485a-8f68-fb702f74b016.png" max-width="1220px" title="Galeria de fotos"/> 
 
 </div>
 </details>
