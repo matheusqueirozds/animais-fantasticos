@@ -1,0 +1,41 @@
+@media screen and (max-width: 700px) {
+  body {
+    grid-template-columns: 1fr;
+  }
+
+  .menu,
+  .grid-section,
+  .copy {
+    grid-column: 1;
+  }
+
+  .grid-section {
+    grid-template-columns: 100px 1fr;
+  }
+
+  .titulo {
+    font-size: 3rem;
+  }
+
+  .animais-lista {
+    overflow-y: hidden;
+    height: max-content;
+    display: flex;
+  }
+
+  .animais-lista,
+  .animais-descricao,
+  .faq-lista,
+  .dados,
+  .mapa {
+    grid-column: 1/-1;
+  }
+
+  .menu {
+    margin-top: 0;
+  }
+
+  .copy {
+    margin-bottom: 0;
+  }
+}

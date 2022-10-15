@@ -1,0 +1,11 @@
+.copy {
+  grid-column: 3/5;
+  margin-bottom: 2rem;
+  background-color: var(--color-1);
+}
+
+.copy p {
+  padding: 20px;
+  font-family: var(--font-2);
+  font-weight: bold;
+}

@@ -1,0 +1,55 @@
+.animais h2 {
+  font-family: var(--font-2);
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+  color: var(--color-2);
+}
+
+.animais h2::before {
+  display: inline-block;
+  content: "";
+  height: 10px;
+  width: 40px;
+  margin-right: 10px;
+  background-color: var(--color-1);
+}
+
+.animais p {
+  font-family: var(--font-1);
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.animais-lista {
+  height: 370px;
+  overflow-y: scroll;
+  grid-column: 2;
+}
+
+.animais-lista li {
+  cursor: pointer;
+}
+
+.animais-lista::-webkit-scrollbar {
+  width: 18px;
+}
+
+.animais-lista::-webkit-scrollbar-thumb {
+  background-color: var(--color-1);
+  border-left: 4px solid var(--color-3);
+  border-right: 4px solid var(--color-3);
+}
+
+.animais-lista::-webkit-scrollbar-track {
+  background-color: var(--color-3);
+}
+
+.animais-descricao {
+  grid-column: 3;
+}
+
+.animais-descricao section {
+  margin-bottom: 3rem;
+}

@@ -34,12 +34,12 @@
 <summary><h2>🎨 Documentação de cores</h2></summary>
 <div>
 
-| Cor | Hexadecimal |
-| :---: | :---: |
-| cor 1 | #ffbb55 | 
-| cor 2 | #faf6ed |
-| cor 3 | #ef6757 |
-| cor 4 | #222222 |
+|  Cor  |    Hexadecimal    |
+| :---: | :---------------: |
+| cor 1 |      #ffbb55      |
+| cor 2 |  var(--color-3)   |
+| cor 3 |      #ef6757      |
+| cor 4 | var(--color-4)222 |
 
 </div>  
 </details>
@@ -51,11 +51,11 @@
 
 Seguem as principais features acrescentadas nesse projeto:
 
--  [x] O site está responsivo
--  [x] As informações estão organizadas por seções
--  [x] O código está indentado e de fácil entendimento para futuras manutenções
--  [x] Foram utilizadas tags específicas do HTML5, explorando diversas possibilidades de formatação do site
--  [x] Existem contéudos dinâmicos no site, como galeria de imagens, feitos com JavaScript
+- [x] O site está responsivo
+- [x] As informações estão organizadas por seções
+- [x] O código está indentado e de fácil entendimento para futuras manutenções
+- [x] Foram utilizadas tags específicas do HTML5, explorando diversas possibilidades de formatação do site
+- [x] Existem contéudos dinâmicos no site, como galeria de imagens, feitos com JavaScript
 
 </details>  
   
@@ -66,10 +66,10 @@ Seguem as principais features acrescentadas nesse projeto:
 
 Para concluir o projeto ainda pretendo:
 
--  [ ] Refatorar todo o código, baseado no clean code
--  [ ] Adicionar uma página de login no site
--  [ ] Atualizar a UX/UI do site, levando em consideração a experiência do usuário
--  [ ] Melhorar o SEO do site
+- [ ] Refatorar todo o código, baseado no clean code
+- [ ] Adicionar uma página de login no site
+- [ ] Atualizar a UX/UI do site, levando em consideração a experiência do usuário
+- [ ] Melhorar o SEO do site
 
 </details>  
   
@@ -103,10 +103,10 @@ Inicie o servidor pelo Go Live, disponível após a intalação da extensão Liv
 
 ![image](https://user-images.githubusercontent.com/70871620/193433021-eda88178-eec1-4580-a768-0408298cb70e.png)
 
-</details>  
+</details>
 
- --- 
- 
+---
+
 <details>
 <summary><h2>🤹🏾‍♂️ Stacks utilizadas</h2></summary>
   
@@ -114,19 +114,18 @@ Inicie o servidor pelo Go Live, disponível após a intalação da extensão Liv
 - HTML e CSS
 - JavaScript
   
-</details>   
+</details>
 
- --- 
- 
+---
+
 <details>
 <summary><h2>🔳 Screenshots</h2></summary>
 
 <div align="center">
 
-| Galeria de imagems | FAQ | Contato |
-| --- | --- | --- |
-| <img src="https://user-images.githubusercontent.com/70871620/193639165-7e33b7b7-7be5-4833-b64f-83a8dc8b7ef2.png" max-width="1220px" title="Galeria de fotos"/> | <img src="https://user-images.githubusercontent.com/70871620/193639918-8c0efa45-c0bc-4d97-8caa-1c28c5fc7be2.png" max-width="1220px" title="FAQ" /> | <img src="https://user-images.githubusercontent.com/70871620/193640340-0bbf87a9-c99d-4db8-9ae5-305bb286d169.png" max-width="1220px" title="Contato" />
-
+| Galeria de imagems                                                                                                                                             | FAQ                                                                                                                                                | Contato                                                                                                                                                |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img src="https://user-images.githubusercontent.com/70871620/193639165-7e33b7b7-7be5-4833-b64f-83a8dc8b7ef2.png" max-width="1220px" title="Galeria de fotos"/> | <img src="https://user-images.githubusercontent.com/70871620/193639918-8c0efa45-c0bc-4d97-8caa-1c28c5fc7be2.png" max-width="1220px" title="FAQ" /> | <img src="https://user-images.githubusercontent.com/70871620/193640340-0bbf87a9-c99d-4db8-9ae5-305bb286d169.png" max-width="1220px" title="Contato" /> |
 
 </div>
 </details>
