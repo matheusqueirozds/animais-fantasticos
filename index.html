@@ -1,130 +1,207 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8"> <!-- permite a utilização de caracteres especiais -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- permite a responsividade da página -->
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Animais Fantásticos</title>
-    <meta name="title" content="Titulo do site"><!-- título -->
-    <meta name="description" content="Escreva aqui a descrição da página."> <!-- descrição/resumo sobre a página -->
-    <meta name="author" content="Matheus Queiroz"><!-- autor da página -->
-    <meta name="copyright" content="© 2022"><!-- direitos autorais da página -->
-    <meta name="keywords" content=""><!-- palavras-chave -->
-    <meta name="rating" content="general"><!-- censura apropriada da página -->
-    <meta name="robots" content="index, follow"><!-- autorizar indexação da página -->
+    <meta name="title" content="Titulo do site" />
+    <meta name="description" content="Escreva aqui a descrição da página." />
+    <meta name="author" content="Matheus Queiroz" />
+    <meta name="copyright" content="© 2022" />
+    <meta name="keywords" content="" />
+    <meta name="rating" content="general" />
+    <meta name="robots" content="index, follow" />
+    <link
+      rel="shortcut icon"
+      href="/assets/img/favicon.svg"
+      type="image/svg+xml" />
+    <script>
+      document.documentElement.className += " js";
+    </script>
+    <link rel="preload" href="/assets/css/style.css" as="style" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
 
-    <link rel="shortcut icon" href="/assets/img/favicon.svg" type="image/svg+xml">
-
-    <script>document.documentElement.className += ' js'</script>
-
-    <link rel="preload" href="/assets/css/style.css" as="style">
-    <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-
-<body>
-    <nav class="menu js-menu">
-        <ul>
-            <li><a href="#animais">Animais</a></li>
-            <li><a href="#faq">Faq</a></li>
-            <li><a href="#contato">Contato</a></li>
-            <li><a href="https://www.google.com">Login ⯈</a></li>
-        </ul>
+  <body>
+    <nav class="menu">
+      <ul>
+        <li><a href="#animais">Animais</a></li>
+        <li><a href="#faq">Faq</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#">Login ⯈</a></li>
+      </ul>
     </nav>
 
-    <section class="grid-section animais js-scroll" id="animais">
-        <h1 class="titulo">Animais Fantásticos</h1>
-        <ul class="animais-lista js-tabmenu">
-            <li><img src="/assets/img/imagem1.jpg"></li>
-            <li><img src="/assets/img/imagem2.jpg"></li>
-            <li><img src="/assets/img/imagem3.jpg"></li>
-            <li><img src="/assets/img/imagem4.jpg"></li>
-            <li><img src="/assets/img/imagem5.jpg"></li>
-            <li><img src="/assets/img/imagem6.jpg"></li>
-        </ul>
+    <section class="grid-section animais" id="animais">
+      <h1 class="titulo">Animais Fantásticos</h1>
 
-        <div class="animais-descricao js-tabcontent">
-            <section>
-                <h2>Raposa</h2>
-                <p>Raposas são pequenos a médios mamíferos onívoros pertencentes a vários gêneros da família Canidae. </p>
-                <p>Elas têm o crânio achatado, orelhas triangulares verticais, focinho pontiagudo e ligeiramente arrebitado e uma cauda longa e espessa.</p>
-                <p>As raposas vivem em todos os continentes, exceto a Antártida. Elas são geralmente menores do que alguns outros membros da família Canidae, como lobos e chacais.</p>
-            </section>
+      <ul class="animais-lista js-tabmenu">
+        <li><img src="/assets/img/imagem1.jpg" /></li>
+        <li><img src="/assets/img/imagem2.jpg" /></li>
+        <li><img src="/assets/img/imagem3.jpg" /></li>
+        <li><img src="/assets/img/imagem4.jpg" /></li>
+        <li><img src="/assets/img/imagem5.jpg" /></li>
+        <li><img src="/assets/img/imagem6.jpg" /></li>
+      </ul>
 
-            <section>
-                <h2>Esquilo</h2>
-                <p>Os esquilos pertencem a uma grande família de mamíferos roedores, de pequeno e médio porte, conhecida como Sciuridae.</p>
-                <p>Eles estão espalhados por quase todo o mundo, a maioria nas zonas de climas temperado ou tropical, mas também em algumas zonas de clima frio.</p>
-                <p>Como todos os roedores, possuem presas fortíssimas, com que roem facilmente sementes, principalmente bolotas.</p>
-            </section>
+      <div class="animais-descricao js-tabcontent">
+        <section>
+          <h2>Raposa</h2>
+          <p>
+            Raposas são pequenos a médios mamíferos onívoros pertencentes a
+            vários gêneros da família Canidae.
+          </p>
+          <p>
+            Elas têm o crânio achatado, orelhas triangulares verticais, focinho
+            pontiagudo e ligeiramente arrebitado e uma cauda longa e espessa.
+          </p>
+          <p>
+            As raposas vivem em todos os continentes, exceto a Antártida. Elas
+            são geralmente menores do que alguns outros membros da família
+            Canidae, como lobos e chacais.
+          </p>
+        </section>
 
-            <section>
-                <h2>Urso</h2>
-                <p>Os Ursos constituem uma família de mamíferos, geralmente de grande porte, contendo os ursos e os pandas.</p>
+        <section>
+          <h2>Esquilo</h2>
+          <p>
+            Os esquilos pertencem a uma grande família de mamíferos roedores, de
+            pequeno e médio porte, conhecida como Sciuridae.
+          </p>
+          <p>
+            Eles estão espalhados por quase todo o mundo, a maioria nas zonas de
+            climas temperado ou tropical, mas também em algumas zonas de clima
+            frio.
+          </p>
+          <p>
+            Como todos os roedores, possuem presas fortíssimas, com que roem
+            facilmente sementes, principalmente bolotas.
+          </p>
+        </section>
 
-                <p>Algumas características dos ursos são pelagem espessa, rabo curto, o olfato desenvolvido e as garras não retráteis. Geralmente animais omnívoros, mas se alimentam principalmente de carne.</p>
+        <section>
+          <h2>Urso</h2>
+          <p>
+            Os Ursos constituem uma família de mamíferos, geralmente de grande
+            porte, contendo os ursos e os pandas.
+          </p>
 
-                <p>A maioria deles costuma preparar-se para hibernar durante o inverno, comendo grandes quantidades de comida antes de entrar em uma toca para o período de sono profundo.</p>
-            </section>
+          <p>
+            Algumas características dos ursos são pelagem espessa, rabo curto, o
+            olfato desenvolvido e as garras não retráteis. Geralmente animais
+            omnívoros, mas se alimentam principalmente de carne.
+          </p>
 
-            <section>
-                <h2>Lobo</h2>
-                <p>Os lobos são tipicamente predadores ápice nos ecossistemas que ocupam.</p>
-                <p>Embora não sejam tão adaptáveis à presença humana como geralmente ocorre com as demais espécies de canídeos, eles se desenvolveram em diversos ambientes.</p>
-                <p>Os lobos são capazes de percorrer longas distâncias com uma velocidade média de 10 km/h e são conhecidos por atingir velocidades próximas a 65 km/h durante uma perseguição.</p>
-            </section>
+          <p>
+            A maioria deles costuma preparar-se para hibernar durante o inverno,
+            comendo grandes quantidades de comida antes de entrar em uma toca
+            para o período de sono profundo.
+          </p>
+        </section>
 
-            <section>
-                <h2>Macaco</h2>
-                <p>Os macacos são animais importantes para o meio ambiente, estando muitas espécies ameaçadas.</p>
-                <p>Possuem pelos em seu corpo e de glândulas mamárias, as quais produzem leite, utilizado na alimentação dos filhotes.</p>
-                <p>Alé disso, podemos destacar o cérebro bem desenvolvido, os olhos voltados para a frente, e o chamado polegar opositor. O polegar opositor nos macacos é importante para que consigam agarrar objetos, funcionando como verdadeiras pinças.</p>
-            </section>
+        <section>
+          <h2>Lobo</h2>
+          <p>
+            Os lobos são tipicamente predadores ápice nos ecossistemas que
+            ocupam.
+          </p>
+          <p>
+            Embora não sejam tão adaptáveis à presença humana como geralmente
+            ocorre com as demais espécies de canídeos, eles se desenvolveram em
+            diversos ambientes.
+          </p>
+          <p>
+            Os lobos são capazes de percorrer longas distâncias com uma
+            velocidade média de 10 km/h e são conhecidos por atingir velocidades
+            próximas a 65 km/h durante uma perseguição.
+          </p>
+        </section>
 
-            <section>
-                <h2>Leão</h2>
-                <p>O leão é um animal mamífero carnívoro. A pelagem é unicolor de coloração castanha, e os machos apresentam uma juba característica.</p>
-                <p>Habita preferencialmente as savanas e pastagens abertas, mas pode ser encontrado em regiões mais arbustivas.</p>
-                <p>É um animal sociável que vive em grupos que consiste das leoas e suas crias, o macho dominante e alguns machos jovens que ainda não alcançaram a maturidade sexual.</p>
-            </section>
-        </div>
+        <section>
+          <h2>Macaco</h2>
+          <p>
+            Os macacos são animais importantes para o meio ambiente, estando
+            muitas espécies ameaçadas.
+          </p>
+          <p>
+            Possuem pelos em seu corpo e de glândulas mamárias, as quais
+            produzem leite, utilizado na alimentação dos filhotes.
+          </p>
+          <p>
+            Alé disso, podemos destacar o cérebro bem desenvolvido, os olhos
+            voltados para a frente, e o chamado polegar opositor. O polegar
+            opositor nos macacos é importante para que consigam agarrar objetos,
+            funcionando como verdadeiras pinças.
+          </p>
+        </section>
+
+        <section>
+          <h2>Leão</h2>
+          <p>
+            O leão é um animal mamífero carnívoro. A pelagem é unicolor de
+            coloração castanha, e os machos apresentam uma juba característica.
+          </p>
+          <p>
+            Habita preferencialmente as savanas e pastagens abertas, mas pode
+            ser encontrado em regiões mais arbustivas.
+          </p>
+          <p>
+            É um animal sociável que vive em grupos que consiste das leoas e
+            suas crias, o macho dominante e alguns machos jovens que ainda não
+            alcançaram a maturidade sexual.
+          </p>
+        </section>
+      </div>
     </section>
 
-    <section class="grid-section faq js-scroll" id="faq">
-        <h1 class="titulo">FAQ</h1>
-        <dl class="faq-lista js-accordion">
-            <dt>Qual a idade dos animais?</dt>
-            <dd>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</dd>
-            <dt>Eles são fantásticos?</dt>
-            <dd>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</dd>
-            <dt>Qual a diferença?</dt>
-            <dd>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</dd>
-            <dt>Como proteger?</dt>
-            <dd>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</dd>
-        </dl>
+    <section class="grid-section faq" id="faq">
+      <h1 class="titulo">FAQ</h1>
+      <dl class="faq-lista js-accordion">
+        <dt>Qual a idade dos animais?</dt>
+        <dd>
+          As raposas são animais mamíferos e onívoros pertencentes à família
+          Canidae. São vulpídeos de porte médio, caracterizados por um focinho
+          comprido e uma cauda longa e peluda.
+        </dd>
+        <dt>Eles são fantásticos?</dt>
+        <dd>
+          Também apresentam como particularidade suas pupilas ovais, semelhantes
+          às pupilas verticais dos felídeos.
+        </dd>
+        <dt>Qual a diferença?</dt>
+        <dd>
+          As raposas são animais mamíferos e onívoros pertencentes à família
+          Canidae. São vulpídeos de porte médio, caracterizados por um focinho
+          comprido e uma cauda longa e peluda.
+        </dd>
+        <dt>Como proteger?</dt>
+        <dd>
+          Também apresentam como particularidade suas pupilas ovais, semelhantes
+          às pupilas verticais dos felídeos.
+        </dd>
+      </dl>
     </section>
 
-    <section class="grid-section contato js-scroll" id="contato">
-        <h1 class="titulo">Contato</h1>
-        <div class="mapa">
-            <img src="/assets/img/mapa.png">
-        </div>
-        <ul class="dados">
-            <li>contato@animaisfantasticos.com</li>
-            <li>+55 (71) 9999-9999</li>
-            <li>Rua do Conde, nº 71</li>
-            <li>Salvador - BA</li>
-            <li>Doe 0.0079 bitcoin para nos ajudar</li>
-            <li>Seg à Sex das 8 às 18</li>
-        </ul>
+    <section class="grid-section contato" id="contato">
+      <h1 class="titulo">Contato</h1>
+      <div class="mapa">
+        <img src="/assets/img/mapa.png" />
+      </div>
+      <ul class="dados">
+        <li>contato@animaisfantasticos.com</li>
+        <li>+55 (71) 9999-9999</li>
+        <li>Rua do Conde, nº 71</li>
+        <li>Salvador - BA</li>
+        <li>Doe 0.0079 bitcoin para nos ajudar</li>
+        <li>Seg à Sex das 8 às 18</li>
+      </ul>
     </section>
 
     <footer class="copy">
-        <p>Todos os direitos reservados.</p>
+      <p>Todos os direitos reservados.</p>
     </footer>
 
     <script src="/assets/js/script.js"></script>
-</body>
-
+  </body>
 </html>
